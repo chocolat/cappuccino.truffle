@@ -1,0 +1,11 @@
+(name Action)
+
+(trigger
+    (tab ac))
+
+(only-in source.js.objj)
+
+(snippet [- (@action)%{1="doSomething"}:(id)sender
+{
+	%{3}
+}])

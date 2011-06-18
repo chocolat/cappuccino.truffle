@@ -1,0 +1,8 @@
+(name [mask: resize width bottom])
+
+(trigger
+    (tab mwb))
+
+(only-in source.js.objj)
+
+(snippet [[%{1="object"} setAutoresizingMask:CPViewWidthSizable | CPViewMinYMargin];])

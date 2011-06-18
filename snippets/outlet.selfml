@@ -1,0 +1,8 @@
+(name Outlet)
+
+(trigger
+    (tab ot))
+
+(only-in source.js.objj)
+
+(snippet [@outlet %{1="CPTextField"} %{2="text"};])

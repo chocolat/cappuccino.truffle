@@ -1,0 +1,8 @@
+(name [mask: resize height left])
+
+(trigger
+    (tab mhl))
+
+(only-in source.js.objj)
+
+(snippet [[%{1="object"} setAutoresizingMask:CPViewHeightSizable | CPViewMaxXMargin];])

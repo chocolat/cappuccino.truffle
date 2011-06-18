@@ -1,0 +1,19 @@
+(detector
+    (extension j)
+    (extension J))
+
+(folding
+    (start [(?x)
+		 /\*\*(?!\*)
+		|^(?![^{]*?//|[^{]*?/\*(?!.*?\*/.*?\{)).*?\{\s*($|//|/\*(?!.*?\*/.*\S))
+		|^@(interface|protocol|implementation)\b
+	])
+    (stop [(?<!\*)\*\*/|^\s*\}|^@end\b]))
+
+(in meta.function.js.objj
+    (symbol-list
+        (transformation [
+		s/^([-+])\s*\(.*?\)\s*/ $1 /; # strip result type
+		s/:\s*\(.*?\)\s*\w+\s*/:/g;   # strip argument variables
+		s/\s*;?$//g;                  # strip terminating ws + semi-colon
+	])))

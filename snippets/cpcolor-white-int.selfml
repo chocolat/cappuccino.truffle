@@ -1,0 +1,8 @@
+(name [CPColor white int])
+
+(trigger
+    (tab color))
+
+(only-in source.js.objj)
+
+(snippet [[CPColor colorWithCalibratedWhite:%{1="255.0"}/255.0 alpha:%{2="1.0"}]])

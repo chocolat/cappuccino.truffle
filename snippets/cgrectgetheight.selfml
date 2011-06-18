@@ -1,0 +1,8 @@
+(name CGRectGetHeight)
+
+(trigger
+    (tab rect))
+
+(only-in source.js.objj)
+
+(snippet [(CGRectGetHeight([%{1="contentView"} bounds]) - %{2="100.0"})])

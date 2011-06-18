@@ -1,0 +1,8 @@
+(name CGPointMake)
+
+(trigger
+    (tab point))
+
+(only-in source.js.objj)
+
+(snippet [CGPointMake(%{1="0"}, %{2="0"})])

@@ -1,0 +1,8 @@
+(name CGRectMake)
+
+(trigger
+    (tab rect))
+
+(only-in source.js.objj)
+
+(snippet [CGRectMake(%{1="0"},%{2="0"},%{3="0"},%{4="0"})])

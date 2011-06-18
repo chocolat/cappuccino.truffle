@@ -1,0 +1,8 @@
+(name accessor)
+
+(trigger
+    (tab acc))
+
+(only-in source.js.objj)
+
+(snippet [@accessors%{1="()"};])

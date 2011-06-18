@@ -1,0 +1,8 @@
+(name [CPColor rgb float])
+
+(trigger
+    (tab color))
+
+(only-in source.js.objj)
+
+(snippet [[CPColor colorWithCalibratedRed:%{1="1.0"} green:%{2="0.0"} blue:%{3="0.5"} alpha:%{4="1.0"}]])

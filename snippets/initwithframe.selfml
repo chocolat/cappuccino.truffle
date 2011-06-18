@@ -1,0 +1,8 @@
+(name initWithFrame)
+
+(trigger
+    (tab init))
+
+(only-in source.js.objj)
+
+(snippet [[[%{1="Class"} alloc] initWithFrame:%{2="aFrame"}];])

@@ -1,0 +1,8 @@
+(name console.log)
+
+(trigger
+    (tab log))
+
+(only-in source.js.objj)
+
+(snippet [console.log(%{1});])

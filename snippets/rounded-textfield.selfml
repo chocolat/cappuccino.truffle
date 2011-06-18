@@ -1,0 +1,12 @@
+(name [Rounded TextField])
+
+(trigger
+    (tab text))
+
+(only-in source.js.objj)
+
+(snippet [var %{1="name"} = [CPTextField roundedTextFieldWithStringValue:@"%{2}" placeholder:@"%{3="Placeholder"}" width:%{4="200.0"}];
+[%{1} setFrameOrigin:CGPointMake(%{5="0.0"}, %{6="0.0"})];
+[%{1} setDelegate:%{7="0.0"}];
+[parentView addSubview:%{1}];
+%{0}])

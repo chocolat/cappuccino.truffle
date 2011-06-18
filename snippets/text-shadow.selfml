@@ -1,0 +1,9 @@
+(name [Text Shadow])
+
+(trigger
+    (tab shadow))
+
+(only-in source.js.objj)
+
+(snippet [[%{1="aControl"} setTextShadowColor:[CPColor %{2="white"}Color]];
+[%{1} setTextShadowOffset:CGSizeMake(0.0, %{3="1.0"})];])

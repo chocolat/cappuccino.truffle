@@ -1,0 +1,8 @@
+(name CGRectGetWidth)
+
+(trigger
+    (tab rect))
+
+(only-in source.js.objj)
+
+(snippet [(CGRectGetWidth([%{1="contentView"} bounds]) - %{2="100.0"})])

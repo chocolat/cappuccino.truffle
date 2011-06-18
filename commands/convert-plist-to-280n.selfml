@@ -1,0 +1,12 @@
+(trigger)
+
+(name [Convert plist to 280N])
+
+(input selection)
+
+(output replace-selected)
+
+(save nothing)
+
+(script [cplutil -c 280north1 -o /dev/stdout /dev/stdin
+])

@@ -1,0 +1,20 @@
+(name class)
+
+(trigger
+    (tab cla))
+
+(only-in source.js.objj)
+
+(snippet [@interface %{1="%{TM_FILENAME/\\...*$|(^$)/(?1:object)/}"} : %{2="CPObject"}
+{
+}
+
+- (id)init
+{
+	if(self = [super init])
+	{%{0}
+	}
+	return self;
+}
+
+@end])

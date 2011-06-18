@@ -1,0 +1,8 @@
+(name addSubview)
+
+(trigger
+    (tab asv))
+
+(only-in source.js.objj)
+
+(snippet [[%{1="parentView"} addSubview:%{2="view"}];])

@@ -1,0 +1,8 @@
+(menu
+    (submenu Core snippet.delegate-responds-to-selector snippet.responds-to-selector snippet.class snippet.category snippet.import-"…" snippet.import-<…> [snippet.import-"…"-(with-file-menu)] snippet.init snippet.initwithframe snippet.accessors [snippet.@selector(…)])
+    (submenu AppKit snippet.new-cptextfield snippet.textfield snippet.rounded-textfield snippet.text-shadow)
+    (submenu Masks snippet.setautoresizingmask snippet.mask-center snippet.mask-top-left snippet.mask-top-right snippet.mask-bottom-right snippet.mask-bottom-left snippet.mask-resize-height-left snippet.mask-resize-height-right snippet.mask-resize-width-top snippet.mask-resize-width-bottom)
+    (submenu Colors snippet.cpcolor-clear snippet.cpcolor-random snippet.cpcolor-hex snippet.cpcolor-rgb-float snippet.cpcolor-rgb-int snippet.cpcolor-white-float snippet.cpcolor-white-int)
+    (submenu Utilities snippet.action snippet.outlet --- snippet.cgpointequaltopoint snippet.cgpointmakezero snippet.cgpointmake --- snippet.cgrectgetwidth snippet.cgrectgetheight snippet.cgrectmakezero snippet.cgrectmake --- snippet.add-subview snippet.debugger snippet.console_log)
+    command.convert-plist-to-xml
+    command.convert-plist-to-280n)

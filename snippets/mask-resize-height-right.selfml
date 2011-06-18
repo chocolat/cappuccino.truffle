@@ -1,0 +1,8 @@
+(name [mask: resize height right])
+
+(trigger
+    (tab mhr))
+
+(only-in source.js.objj)
+
+(snippet [[%{1="object"} setAutoresizingMask:CPViewHeightSizable | CPViewMinXMargin];])

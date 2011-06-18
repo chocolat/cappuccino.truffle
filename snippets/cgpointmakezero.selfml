@@ -1,0 +1,8 @@
+(name CGPointMakeZero)
+
+(trigger
+    (tab point))
+
+(only-in source.js.objj)
+
+(snippet [CGPointMakeZero()])

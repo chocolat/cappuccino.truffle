@@ -1,0 +1,8 @@
+(name [mask: top right])
+
+(trigger
+    (tab mtr))
+
+(only-in source.js.objj)
+
+(snippet [[%{1="object"} setAutoresizingMask:CPViewMinXMargin | CPViewMaxYMargin];])

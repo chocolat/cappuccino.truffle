@@ -1,0 +1,8 @@
+(name [import "…"])
+
+(trigger
+    (tab imp))
+
+(only-in source.js.objj)
+
+(snippet [@import "%{1}"])

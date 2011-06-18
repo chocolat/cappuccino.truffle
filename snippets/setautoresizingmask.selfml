@@ -1,0 +1,8 @@
+(name [mask: full resize])
+
+(trigger
+    (tab mf))
+
+(only-in source.js.objj)
+
+(snippet [[%{1="object"} setAutoresizingMask:CPViewWidthSizable | CPViewHeightSizable];])

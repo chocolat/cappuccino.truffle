@@ -1,0 +1,7 @@
+(name [#pragma mark -])
+
+(trigger
+    (tab pragma))
+
+(snippet [#pragma mark -
+#pragma mark %{1}])

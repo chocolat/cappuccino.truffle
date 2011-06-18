@@ -1,0 +1,12 @@
+(name category)
+
+(trigger
+    (tab cat))
+
+(only-in source.js.objj)
+
+(snippet [@implementation %{1="%{TM_FILENAME/(.*).j/$1/}"} (%{2="Category"})
+
+%{0}
+
+@end])
