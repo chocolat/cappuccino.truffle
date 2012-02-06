@@ -6,7 +6,7 @@
 (only-in source.js.objj)
 
 (snippet [var %{1="name"} = [[CPTextField alloc] initWithFrame:CGRectMake(%{2="0"},%{3="0"},%{4="300"},%{5="0"})];
-[%{1} setStringValue:%{6="@\"%{7=\"string\"}\""}];
+[%{1} setStringValue:%{6="@"%{7="string"}""}];
 [%{1} setEditable:%{8="NO"}];
 [%{1} setFont:[CPFont systemFontOfSize:%{9="14.0"}]];
 %{10="[%{1} sizeToFit];

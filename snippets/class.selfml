@@ -5,7 +5,7 @@
 
 (only-in source.js.objj)
 
-(snippet [@interface %{1="%{TM_FILENAME/\\...*$|(^$)/(?1:object)/}"} : %{2="CPObject"}
+(snippet [@interface %{1="%{TM_FILENAME/\...*$|(^$)/(?1:object)/}"} : %{2="CPObject"}
 {
 }
 
