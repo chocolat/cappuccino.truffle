@@ -5,4 +5,4 @@
 
 (only-in source.js.objj)
 
-(snippet [@import "%{1="`"$TM_BUNDLE_SUPPORT/bin/import_FileMenu.sh" ".j"`"}"])
+(snippet [@import "%{1=`"$TM_BUNDLE_SUPPORT/bin/import_FileMenu.sh" ".j"`}"])

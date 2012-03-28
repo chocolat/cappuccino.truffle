@@ -5,4 +5,4 @@
 
 (only-in source.js.objj)
 
-(snippet [@import <%{1="`"$DIALOG" -u -p "{menuItems=({title=Foundation;},{title=AppKit;});}" | perl -e 'undef $/;$a=<>;$a=~m/<key>title(.|\n)+?<string>(.*?)</;print $2;'`"}/%{2="CP"}%{3}.j>])
+(snippet [@import <%{1=`"$DIALOG" -u -p "{menuItems=({title=Foundation;},{title=AppKit;});}" | perl -e 'undef $/;$a=<>;$a=~m/<key>title(.|\n)+?<string>(.*?)</;print $2;'`}/%{2="CP"}%{3}.j>])
